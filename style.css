@@ -1,0 +1,116 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+body {
+    background-color: black;
+    font-size: 22px;
+    font-family: Helvetica;
+    color: seashell;
+    opacity: 0.9;
+    
+}
+header {
+    display: flex;
+    justify-content: flex-end;
+    margin-top: -50px;
+    
+}
+
+#logo {
+    height: 50px;
+    padding: 10px;
+}
+
+.top_menu li {
+    
+    display: inline;
+    padding: 15px;
+}
+
+.top_menu {
+    padding-right: 20px;
+    
+}
+
+.top_menu a {
+color: seashell;
+}
+/*Conteiner1*/
+.containerOurMission {
+    background: url(./images/img-mission-background.jpg) no-repeat;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    height: 700px;
+    width: 100%;
+    margin-top: 69px;
+    align-items: center;
+}
+
+#h21 {
+    display: flex;
+    justify-content: center;
+}
+
+.bc1 {
+    background-color: black;
+    width: 1200px;
+}
+
+#h41 {
+    display: flex;
+    justify-content: center;
+    word-spacing: 3px;
+    padding-top: 10px;
+}
+
+/*Conteiner2*/
+
+
+#h22 {
+    display: flex;
+    justify-content: center;
+    padding-top: 20px;
+}
+
+#h42 {
+    display: flex;
+    justify-content: center;
+    padding-top: 10px;
+    word-spacing: 3px;
+}
+
+.cards {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.row1 {
+    display: inline-flex;
+    
+    
+    
+}
+
+#sphoto {
+    height: 200px;
+    width: 300px;
+    padding: 10px;
+    
+}
+
+.text2 {
+    display: flex;
+    justify-content: center;
+    
+}
+#OMh4 {
+    padding-left: 70px;
+    padding-right: 70px;
+}
+
+
+
+
