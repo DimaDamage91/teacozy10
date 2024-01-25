@@ -13,6 +13,7 @@ body {
 header {
     display: flex;
     justify-content: flex-end;
+    flex-wrap: wrap;
     margin-top: -50px;
     
 }
@@ -26,6 +27,7 @@ header {
     
     display: inline;
     padding: 15px;
+    flex-wrap: wrap;
 }
 
 .top_menu {
@@ -41,9 +43,10 @@ color: seashell;
     background: url(./images/img-mission-background.jpg) no-repeat;
     background-position: center;
     display: flex;
+    flex-wrap: wrap;
     justify-content: center;
     height: 700px;
-    width: 100%;
+    max-width: 100%;
     margin-top: 69px;
     align-items: center;
 }
@@ -89,28 +92,84 @@ color: seashell;
 
 .row1 {
     display: inline-flex;
-    
-    
-    
+
 }
 
 #sphoto {
     height: 200px;
     width: 300px;
     padding: 10px;
-    
+
 }
 
 .text2 {
     display: flex;
     justify-content: center;
-    
+
 }
 #OMh4 {
     padding-left: 70px;
     padding-right: 70px;
 }
 
+.cards2 {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
 
+.row2 {
+    display: inline-flex;
+}
+#mphoto {
+    height: 200px;
+    width: 300px;
+    padding: 10px;
+    padding-top: 20px;
+}
 
+.text3 {
+    display: flex;
+    justify-content: center;
+}
+#tx3 {
+    padding-left: 70px;
+    padding-right: 70px;
+}
+
+/*Conteiner3*/
+
+.containerLocations {
+    background: url(./images/img-locations-background.jpg) no-repeat;
+    background-position: center;
+    height: 700px;
+    max-width: 100%;
+    margin-top: 20px;
+    
+}
+.text5 {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    
+    
+    
+    
+    
+}
+
+#text5 {
+    background-color: black;
+    
+   
+    
+    
+}
+#h23 {
+    padding-top: 70px;
+}
+
+p {
+    font-size: 15px;
+}
 
