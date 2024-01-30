@@ -12,10 +12,10 @@ body {
 }
 header {
     display: flex;
-    justify-content: flex-end;
+    justify-content: space-between;
     flex-wrap: wrap;
-    margin-top: -50px;
-    
+    padding-top: 30px;
+
 }
 
 #logo {
@@ -24,7 +24,6 @@ header {
 }
 
 .top_menu li {
-    
     display: inline;
     padding: 15px;
     flex-wrap: wrap;
@@ -34,7 +33,6 @@ header {
     display: flex;
     flex-wrap: wrap;
     padding-right: 20px;
-    
 }
 
 .top_menu a {
@@ -57,11 +55,12 @@ color: seashell;
 .containerOurMission {
     background: url(./images/img-mission-background.jpg) no-repeat;
     background-position: center;
+    background-size: 90%;
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
     height: 700px;
-    max-width: 100%;
+    width: 100%;
     margin-top: 69px;
     align-items: center;
 }
@@ -71,10 +70,14 @@ color: seashell;
     justify-content: center;
     flex-wrap: wrap;
 }
+.text1 {
+    background-color: black;
+    width: 90%;
+}
 
 .bc1 {
     background-color: black;
-    width: 1200px;
+    width: 100%;
 }
 
 #h41 {
@@ -86,6 +89,7 @@ color: seashell;
 }
 
 /*Conteiner2*/
+
 
 
 #h22 {
@@ -108,26 +112,21 @@ color: seashell;
 }
 
 .row1 {
-    display: inline-flex;
-
+    display: flex;
+    flex-wrap: wrap;
+    gap: 15px;
+    align-items: center;
+    justify-content: center;
 }
 
 #sphoto {
     height: 200px;
     width: 300px;
-    padding: 10px;
-
 }
 
-.text2 {
-    display: flex;
-    justify-content: center;
-    flex-wrap: wrap;
-
-}
 #OMh4 {
-    padding-left: 70px;
-    padding-right: 70px;
+   display: flex;
+   justify-content: center;
 }
 
 .cards2 {
@@ -137,23 +136,21 @@ color: seashell;
 }
 
 .row2 {
-    display: inline-flex;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 15px;
+    align-items: center;
+    justify-content: center;
 }
 #mphoto {
     height: 200px;
     width: 300px;
-    padding: 10px;
-    padding-top: 20px;
 }
 
-.text3 {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-}
+
 #tx3 {
-    padding-left: 70px;
-    padding-right: 70px;
+    display: flex;
+    justify-content: center;
 }
 
 /*Conteiner3*/
@@ -161,33 +158,37 @@ color: seashell;
 .containerLocations {
     background: url(./images/img-locations-background.jpg) no-repeat;
     background-position: center;
-    height: 700px;
-    max-width: 100%;
+    background-size: 90%;
+    min-height: 700px;
+    width: 100%;
     margin-top: 20px;
 }
 .text5 {
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
-     line-height: 60px;
+    line-height: 60px;
+    gap: 40px 40px;
+    
+    
 }
 
-.text4 {
+#h23 {
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
-    padding-top: 150px;
+    padding-top: 100px;
+
 }
 
-#text5 {
+.text55 {
     height: 250px;
-    width: 300px;
+    max-width: 300px;
     background-color: black;
     display: flex;
     flex-direction: column;
     align-items: center;
-    margin: 40px;
-    padding-top: 40px;
+    flex: 1 250px;
 }
 
 
@@ -201,16 +202,7 @@ p {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
-    
 }
-
-.text6 {
-    display: flex;
-    flex-wrap: wrap;
-    flex-direction: column;
-    padding-top: 5px;
-}
-
 
 
 h5 {
